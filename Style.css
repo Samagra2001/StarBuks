@@ -1,0 +1,796 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.brd{
+    border: 2px solid red;
+}
+
+.border{
+   border: 2px solid red;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar{
+width: 100%;
+height: 9vh;
+display: flex;
+align-items: center;
+justify-content: space-around;
+position: fixed;
+background-color: white;
+
+}
+
+.textnone{
+    text-decoration: none;
+    color: #212529;   
+}
+
+.home{
+color: black;
+text-decoration: underline;
+text-decoration-color: #00754a;
+}
+
+.navoption{
+    width: 40%;
+    justify-content: space-evenly;
+    font-size: 1.0rem; 
+    text-decoration: none;
+}
+
+.textnone{
+    font-size: medium;
+    font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+    justify-content: center;
+    
+}
+
+.searchinput{
+    width: 30%;
+    justify-content: space-around;
+}
+
+.inputbar{
+    border: 2px solid gray;
+    width: 60%;
+    height: 100%;
+    margin-right: 10%;
+    border-radius: 2vw;
+    /* box-shadow: rgb(0, 0, 0) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px; */
+    padding-left: 20%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.navsearch{
+    border: none;
+    width: 80%;
+   font-size: 0.8rem;
+   margin-right: 40%;
+   box-shadow: 2px green ;
+}
+
+.border{
+    width: 100%;
+    height: 11vh;
+    background-color: #1e3932;
+}
+
+.offer{
+    width: 100%;
+    height: 10vh;
+    /* margin-left:10% ; */
+    background-color: #1e3932;
+    
+  }
+
+.offertext{
+    width: 30%;
+    color: white;
+    font-size: large;
+    font-family: SoDoSans_Light, Helvetica, sans-serif;
+    font-weight: 100;
+    margin-left: 10.3%;
+    margin-top: 1.5%;
+    padding-top: 1.4%;
+}
+
+.knowmorebtn{
+    height: 10%;
+    width: 30%;
+    background-color:#1e3932 ;
+    color: white;
+    border: none;
+    border-radius: 8vh;
+    margin-left: 85%;
+    align-items: center;
+    text-decoration: none; 
+    border: white;
+    border-color: aliceblue;
+}
+
+.bestseller{
+    width: 80%;
+    height: 25vh;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.textpart{
+    color: black;
+    font-size: x-large;
+    font-family: SoDoSans_Light, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.product{
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: start;
+   margin-top: 1%;
+}
+
+.productImage{
+    width: 18%;
+    height: 18%;
+    border-radius: 50%;
+    justify-items: center;
+    justify-content: space-around;
+    padding: 3%;
+    }
+
+.itemnames{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.Bestseller{
+    margin-left:1.7% ;
+    margin-top: 0%;
+    padding-top: 0%;
+    font-size: small;
+}
+.Drinks{
+    margin-left:14.2% ;
+    margin-top: 0%;
+    padding-top: 0%;
+    font-size: small;
+}
+
+.Food{
+    margin-left:13.4% ;
+    margin-top: 0%;
+    padding-top: 0%;
+    font-size: small;
+}
+
+.Merchandise{
+    margin-left:11.4% ;
+    margin-top: 0%;
+    padding-top: 0%;
+    font-size: small;
+}
+
+.CoffeeAtHome{
+    margin-left:10.2% ;
+
+    font-size: small;
+    width: 90%;
+}
+
+.ReadytoEat{
+    margin-left:1.3% ;
+    margin-top: 0%;
+    padding-top: 0%;
+    font-size: small;
+    margin-right: 2%;
+}
+
+.savings{
+    height: 25vh;
+    width: 100%;
+    background-image:url(./Images/IMAGE\ 2023-11-07\ 19_40_18.jpg);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flagimage{
+    width: 12%;
+    height: 100%;
+    
+    
+}
+
+.kmbtn{
+    height: 40px;
+    width: 130px;
+    background-color: #00754a;
+    color: white;
+    border: none;
+    border-radius: 5vh;
+    margin-right: 20px;
+   
+
+  }
+
+  .flag{
+   width: 10%;
+   height: 90%;
+  
+  }
+
+  .savingtext{
+    width: 70%;
+ font-size: medium;
+ display: inline;
+ padding-top: 0.1%;
+   
+  }
+
+  .imageoffer{
+    width: 27%;
+    height: 20vh;
+  }
+
+  .latestoffering{
+    width: 100%;
+    height: 12vh;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 3%;
+    font-family: SoDoSans_Bold, Helvetica, sans-serif;
+  }
+
+  .offerings{
+    height: 55vh;
+    width: 100%;
+    margin-top:3% ;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+   
+  }
+
+
+.offerproduct{
+    height: 55vh;
+    width: 33%;
+    border-radius: 3vh;
+    background-color:white;
+    box-shadow: rgb(189, 183, 183) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.imageoffer{
+    height: 27vh;
+    width: 100%;
+    background-image: url(./Images/9.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-right-radius: 3vh;
+    border-top-left-radius: 1vh;
+}
+
+.imageoffer2{
+    height: 27vh;
+    width: 100%;
+    background-image: url(./Images/10.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-right-radius: 3vh;
+    border-top-left-radius: 1vh;
+}
+
+.imageoffer3{
+    height: 27vh;
+    width: 100%;
+    background-image: url(./Images/11.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-right-radius: 3vh;
+    border-top-left-radius: 1vh;
+}
+
+.textoffer{
+    height: 27.4vh;
+    width: 100%;
+    background-color: #edebe9;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-bottom-right-radius: 3vh;
+    border-bottom-left-radius: 3vh;
+    font-size:small ;
+    margin-top: 1%;
+}
+
+.priceBtn1{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5% 0% 2%;
+    margin-top: 2%;
+}
+
+
+.offerProduct:hover{
+    cursor:pointer;
+}
+
+.priceBtn {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: -20px 5% 0% 2%;
+    margin-top: -4%;
+}
+
+.priceBtn1 {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5% 0% 2%;
+    margin-top: 4%;
+}
+
+.Additem {
+   border-radius: 3vh;
+    width: 30%;
+    height: 50%;
+    background-color: #00754a;
+    color: white;
+    border: none;
+}
+
+.offerproduct2{
+    height: 100%;
+    width: 33%;
+    display: flex;
+}
+
+
+
+.br{
+    width: 125%;
+    height: 45vh;
+    margin-left: -12.5%;
+    background-color: #edebe9;
+  
+}
+
+.brvm{
+    width: 80%;
+    height: 20%;
+    margin-left: 10%;
+    display: flex;
+}
+
+.vm{
+    width: 20%;
+    height: 100%;
+    margin-top: 2%;
+    font-family: SoDoSans_Semibold, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: lighter;
+   padding-left: 10%;
+   margin-left:25% ;
+   padding-top: 1.8%;
+   color: #00754a;
+}
+
+.brproduct{
+    height: 60%;
+    width: 95%;
+    margin-left: 10%;
+    margin-top: 2%;
+    display: flex;
+}
+
+.product11{
+    width: 30%;
+    height: 40vh;
+    display: flex;
+    
+}
+
+.h{
+    font-size: large
+    SoDoSans_Bold, Helvetica, sans-seriffont-family ;
+}
+
+.p{
+    font-size: small;
+}
+
+
+.textbr{
+    margin-top: 2%;
+    width: 50%;
+    height: 100%;
+    font-family: SoDoSans_Bold, Helvetica, sans-serif;
+    font-size: x-large;
+    font-weight: 800;
+    padding-top: 1%;
+}
+
+.brproduct1{
+height: 100%;
+width: 30%;
+background-color: white;
+border-radius: 7px;
+box-shadow: rgb(189, 183, 183) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.brproduct2{
+    height: 100%;
+    width: 30%;
+    background-color: white;
+    margin-left: 4%;
+    border-radius: 7px;
+    box-shadow: rgb(189, 183, 183) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.product11{
+    width: 100%;
+    height: 70%;
+}
+
+.brimage1{
+    width: 20%;
+    height: 63%;
+    background-image: url(./Images/12.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 7%;
+    margin-top: 6%;
+    border-radius: 5px;
+   
+}
+
+.brtext{
+    width: 70%;
+    height: 90%;
+    padding-left: 3%;
+    padding-top: 3%;
+}
+
+.product12{
+    width: 100%;
+    height: 70%; 
+    display: flex;
+}
+
+.brimage2{
+    width: 20%;
+    height: 63%;
+    background-image: url(./Images/13.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 7%;
+    margin-top: 6%;
+    border-radius: 5px;
+}
+
+.brtext2{
+    width: 70%;
+    height: 90%;
+    padding-left: 3%;
+    padding-top: 3%;
+}
+
+
+.lastbox{
+    width: 125%;
+    height: 70vh;
+    background-color: #edebe9 ;
+    margin-left: -12.5%;
+}
+
+.learnbox{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.learn{
+    width: 50%;
+    height: 10vh;
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 30px;
+    margin-left: 7.5%;
+    font-family: SoDoSans_Bold, Helvetica, sans-serif;
+}
+
+.discover{
+    font-size: medium;
+    height: 5vh;
+    width: 10%;
+    margin-right: 3.5%;
+    color: #00754a;
+    font-weight: 500;
+}
+
+.lastboxpic{
+    width: 85%;
+    height: 50vh;
+    margin: -7.7% 7.5% 0% 7.5%;
+    background-image: url(./Images/14.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow:  10px 15px 40px 15px black inset;
+}
+
+.lastboxtext{
+    color: white;
+    font-size: 20px;
+    margin-top: 10%;
+    margin-left: 4%;
+    padding-top: 10%;
+}
+
+.lastboxtext2{
+    color: white;
+    width: 70%;
+    font-size: 20px;
+    margin-left: 4%;
+}
+
+.learnmore{
+border-radius: 3vh;
+background-color: white;
+color: black;
+height: 350%;
+width: 60%;
+margin-left: 3.5%;
+padding: 1% 5% 1% 5%;
+border: none;
+}
+
+.greenbox{
+    width: 10;
+    height: 90vh;
+    margin-left: -12.5%;
+    margin-top: 15vh;
+    margin-right: -12.5%;
+    background-color: #0e382c;
+    display: flex;
+}
+
+.a{
+ width: 15%;
+ height: 100%;
+ margin-left: 3%;
+
+}
+
+.image{
+    margin-top: 40%;
+    margin-left: 24%;
+    height: 9%
+}
+
+
+.b{
+    width: 15%;
+    height: 100%;
+    margin-top: -0.04%;
+    margin-left: -3%;
+}
+
+.bcontent{
+    width: 80%;
+    height: 50%;
+    margin-top: 40%;
+    margin-left: 6%;
+    color: white;
+    padding-left: 5%;
+    
+}
+
+.c{
+    width: 15%;
+    height: 100%;
+    margin-left:-4% ;
+}
+
+
+.d{
+    width: 15%;
+    height: 100%;
+    margin-left:2% ;
+}
+
+.e{
+    width: 15%;
+    height: 100%;
+    margin-left: 2%;
+}
+
+.f{
+    width: 15%;
+    height: 100%;
+    margin-left: 3%;
+}
+
+.ccontent{
+    width: 80%;
+    height: 50%;
+    margin-top: 40%;
+    margin-left: 10%;
+    color: white;
+    padding-left: 5%;
+   
+}
+
+.dcontent{
+    width: 100%;
+    height: 50%;
+    margin-top: 40%;
+    margin-left: 9%;
+    color: white;
+    padding-left: 5%; 
+}
+
+.econtent{
+    width: 100%;
+    height: 50%;
+    margin-top: 40%;
+    margin-left: 9%;
+    color: white;
+}
+
+.insta{
+    width: 30%;
+    height: 40%;
+
+}
+
+.flogo1{
+    width: 80%;
+    height: 10%;
+    margin-left: 5%; margin-top: 40%;
+    border-radius: 4px;
+}
+
+.flogo2{
+    margin-left: 5%; 
+    border-radius: 4px;
+}
+
+.instalogo{
+    width: 23%;
+    color: white;
+    border-color: white;
+}
+
+.fblogo{
+    width: 23%;
+}
+
+.twitterlogo{
+    width: 23%;
+}
+
+.line{
+    width: 10;
+    height: 20vh;
+    margin-left: -12.5%;
+    margin-right: -12.5%;
+    background-color: #0e382c;
+    padding-top: 3.2%; 
+}
+
+.underline{
+    border: 1px solid white;
+    width: 80%;
+    margin-left: 10%;
+    
+}
+
+.last{
+    display: flex;
+}
+
+.web{
+    width: 14%;
+    height: 20%;
+    margin-top: 1.5%;
+    color: white;
+    margin-left: 10%;
+    padding-top: 0.2%;
+    border: 2px solid transparent;
+    border-right-color: white;
+    font-size: small;
+}
+
+.web2{
+    width: 14%;
+    height: 20%;
+    margin-top: 1.5%;
+    color: white;
+    margin-left: 1%;
+    padding-top: 0.2%;
+    border: 2px solid transparent;
+    border-right-color: white;
+    font-size: small;
+}
+
+.web3{
+    width: 10%;
+    height: 20%;
+    margin-top: 1.5%;
+    color: white;
+    margin-left: 1%;
+    padding-top: 0.2%;
+    font-size: small;
+    
+}
+
+
+.web1{
+    width: 15%;
+    height: 20%;
+    margin-top: 1.5%;
+    color: white;
+    margin-left: 1%;
+    padding-top: 0.2%;
+    border: 2px solid transparent;
+    border-right-color: white;
+    font-size: small;
+}
+
+.atlast{
+    width: 45%;
+    height: 10vh;
+    color: white;
+    font-weight: 200;
+    font-size: small;
+    margin-left: 25%;
+    margin-right: 10%;
+    padding-top: 2%;
+}
+
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 4px #212529;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #00754a;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: #0e382c;
+}
+
